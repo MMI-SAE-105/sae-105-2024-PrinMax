@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Prin
+- PRÉNOM : Max
+- GROUPE : C1
+- URL du site : https://lucent-twilight-8f0219.netlify.app
+- URL FIGMA : https://www.figma.com/design/MjGZxab8AXbs6xpayjv71B/Max-Prin-SAE-103?node-id=3-3&t=C6BkoXst51Eknehj-1
 
 ## Sujet
 
