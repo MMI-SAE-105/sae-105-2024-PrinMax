@@ -10,7 +10,6 @@ header {
     text-decoration: none;
 }
 
-/* Style de l'icône du menu hamburger */
 .menu-toggle {
     position: absolute;
     top: 20px;
@@ -32,7 +31,6 @@ header {
     transition: all 0.3s ease;
 }
 
-/* Style pour l'overlay */
 .overlay-menu {
     position: fixed;
     top: 0;
@@ -71,7 +69,6 @@ header {
     color: #f0a500;
 }
 
-/* Bouton de fermeture */
 .close-menu {
     position: absolute;
     top: 20px;
@@ -83,7 +80,6 @@ header {
     cursor: pointer;
 }
 
-/* Animation d'ouverture */
 .overlay-menu.show {
     display: flex;
     transform: translateY(0);
