@@ -2,12 +2,10 @@ const menuToggle = document.querySelector('.menu-toggle');
 const overlayMenu = document.querySelector('.overlay-menu');
 const closeMenu = document.querySelector('.close-menu');
 
-// Ouvrir le menu
 menuToggle.addEventListener('click', () => {
     overlayMenu.classList.add('show');
 });
 
-// Fermer le menu
 closeMenu.addEventListener('click', () => {
     overlayMenu.classList.remove('show');
 });
