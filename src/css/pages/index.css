@@ -24,3 +24,8 @@ image {
     color: white;
     border: none;
 }
+
+.imgplan {
+float: left;
+width: 50%;
+}
