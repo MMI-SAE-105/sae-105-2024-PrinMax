@@ -1,0 +1,20 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: start;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+.iconfooter {
+    object-position: right top;
+}
