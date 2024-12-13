@@ -7,19 +7,36 @@
     <link rel="shortcut icon" type="image/png" href="/assets/images/icon.ico" />
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
-    <header>
-        <a href="/index.html"><img src="/assets/images/logo 1.webp" alt="logo" loading="lazy"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="planning.html">Planning</a></li>
-                <li><a href="tarif.html">Tarifs et Informations</a></li>
-                <li><a href="invite.html">Invités</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-            </ul>
-        </nav>
-    </header>
+<header class="header">
+    <a href="/index.html"><img src="/assets/images/logo 1.webp" alt="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="planning.html">Planning</a></li>
+            <li><a href="tarif.html">Tarifs et Informations</a></li>
+            <li><a href="invite.html">Invités</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="apropos.html">A propos</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div class="overlay-menu">
+        <ul>
+            <li><a href="index.html" class="menu-link" data-link="Accueil">Accueil</a></li>
+            <li><a href="planning.html" class="menu-link" data-link="Planning">Planning</a></li>
+            <li><a href="tarif.html" class="menu-link" data-link="Tarifs">Tarifs et Informations</a></li>
+            <li><a href="invite.html" class="menu-link" data-link="Invités">Invités</a></li>
+            <li><a href="contact.html" class="menu-link" data-link="Contact">Contact</a></li>
+            <li><a href="apropos.html" class="menu-link" data-link="À propos">À propos</a></li>
+        </ul>
+    </div>
+    <script src="/src/js/script.js"></script>
+</header>
 <body>
     <img class="image" src="/assets/images/background.webp" alt="background" loading="lazy">
     <h1>Animania</h1>
