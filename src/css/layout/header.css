@@ -12,6 +12,7 @@ header {
     height: auto;
     display: block;
     max-width: auto;
+    text-decoration: none;
 }
 
 .menu-toggle {
@@ -25,6 +26,7 @@ header {
     justify-content: space-between;
     height: 24px;
     width: 30px;
+    text-decoration: none;
 }
 
 .menu-toggle .bar {
@@ -33,6 +35,7 @@ header {
     width: 100%;
     border-radius: 2px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .overlay-menu {
@@ -50,16 +53,19 @@ header {
     z-index: 9;
     transition: transform 0.3s ease;
     transform: translateY(-100%);
+    text-decoration: none;
 }
 
 .overlay-menu ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 .overlay-menu ul li {
     margin: 15px 0;
+    text-decoration: none;
 }
 
 .overlay-menu ul li a {
