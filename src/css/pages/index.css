@@ -8,9 +8,7 @@
     border: none;
 }
 
-.image {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin: 0;
+image {
+    width: 100%;
+    margin: 0;
 }
